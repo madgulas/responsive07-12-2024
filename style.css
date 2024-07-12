@@ -125,3 +125,15 @@ html,body{
     bottom:6%;
     border-radius: 20px;
 }
+@media (max-width: 500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+    
+    }
+    #main #right{
+        width: 100%;
+    }
+}
